@@ -1,7 +1,8 @@
 import { FC } from "react";
+import { DiscoverOffer } from "../../../data/discoverOffers";
 
 interface IProps {
-  offer: object;
+  offer: DiscoverOffer;
 }
 
 const OfferItem: FC<IProps> = ({ offer }) => {

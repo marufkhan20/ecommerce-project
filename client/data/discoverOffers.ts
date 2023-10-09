@@ -1,4 +1,12 @@
-const discoverOffers = [
+export interface DiscoverOffer {
+  id: number;
+  category: string;
+  title: string;
+  img: string;
+  color: string;
+}
+
+const discoverOffers: DiscoverOffer[] = [
   {
     id: 1,
     category: "Explore new arrivals",

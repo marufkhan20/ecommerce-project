@@ -1,4 +1,5 @@
 import DiscoverOffers from "@/components/home/DiscoverOffers";
+import NewArrivals from "@/components/home/NewArrivals";
 import Slider from "@/components/home/Slider";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <main>
       <Slider />
       <DiscoverOffers />
+      <NewArrivals />
     </main>
   );
 };
