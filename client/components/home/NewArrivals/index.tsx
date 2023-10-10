@@ -5,8 +5,8 @@ import products from "@/data/products";
 
 const NewArrivals = () => {
   return (
-    <section className="pb-32 border-b border-light">
-      <div className="container">
+    <section>
+      <div className="container pb-32 border-b border-light">
         <Heading title="New Arrivals." secondTitle="REY backpacks & bags">
           <SlideArrows />
         </Heading>
