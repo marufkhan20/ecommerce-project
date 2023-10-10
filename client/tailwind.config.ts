@@ -16,6 +16,8 @@ const config: Config = {
         secondary: "#64748b",
         success: "#3BCC70",
         "slate-hover": "#F1F5F9",
+        light: "#E2E8F0",
+        focus: "#0284C7",
       },
     },
   },

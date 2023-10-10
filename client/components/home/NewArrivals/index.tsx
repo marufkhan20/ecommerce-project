@@ -5,7 +5,7 @@ import products from "@/data/products";
 
 const NewArrivals = () => {
   return (
-    <section className="pb-32">
+    <section className="pb-32 border-b border-light">
       <div className="container">
         <Heading title="New Arrivals." secondTitle="REY backpacks & bags">
           <SlideArrows />
