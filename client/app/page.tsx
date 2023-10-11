@@ -1,3 +1,4 @@
+import BestSellerProducts from "@/components/home/BestSellerProducts";
 import DiscoverOffers from "@/components/home/DiscoverOffers";
 import EarnMoneyBanner from "@/components/home/EarnMoneyBanner";
 import ExploreCategories from "@/components/home/ExploreCategories";
@@ -14,6 +15,7 @@ const Home = () => {
       <Steps />
       <EarnMoneyBanner />
       <ExploreCategories />
+      <BestSellerProducts />
     </main>
   );
 };
