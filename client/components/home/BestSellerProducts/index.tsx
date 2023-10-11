@@ -6,7 +6,7 @@ import products from "@/data/products";
 const BestSellerProducts = () => {
   return (
     <section>
-      <div className="container py-32 border-b border-light">
+      <div className="container py-32">
         <Heading title="Best Sellers." secondTitle="Best selling of the month">
           <SlideArrows />
         </Heading>
