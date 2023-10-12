@@ -13,17 +13,8 @@ interface IProps {
 const ProductItem: FC<IProps> = ({ product }) => {
   const [openQuickView, setOpenQuickView] = useState(false);
 
-  const {
-    id,
-    thumbnail,
-    colors,
-    sizes,
-    title,
-    category,
-    price,
-    rating,
-    reviews,
-  } = product;
+  const { id, thumbnail, sizes, title, category, price, rating, reviews } =
+    product;
   return (
     <>
       <div>

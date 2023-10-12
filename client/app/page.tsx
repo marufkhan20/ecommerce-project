@@ -5,6 +5,7 @@ import ExploreCategories from "@/components/home/ExploreCategories";
 import NewArrivals from "@/components/home/NewArrivals";
 import Slider from "@/components/home/Slider";
 import SpecialOffer from "@/components/home/SpecialOffer";
+import SpecialProducts from "@/components/home/SpecialProducts";
 import Steps from "@/components/home/Steps";
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <ExploreCategories />
       <BestSellerProducts />
       <SpecialOffer />
+      <SpecialProducts />
     </main>
   );
 };

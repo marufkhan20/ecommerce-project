@@ -2,7 +2,7 @@ import { FC, ReactNode } from "react";
 
 interface IProps {
   title: string;
-  secondTitle: string;
+  secondTitle?: string;
   children?: ReactNode;
 }
 
