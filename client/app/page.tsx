@@ -10,6 +10,7 @@ import SpecialOffer from "@/components/home/SpecialOffer";
 import SpecialProducts from "@/components/home/SpecialProducts";
 import Steps from "@/components/home/Steps";
 import Subscribe from "@/components/home/Subscribe";
+import Testimonials from "@/components/home/Testimonials";
 import TrandingProducts from "@/components/home/TrandingProducts";
 
 const Home = () => {
@@ -28,6 +29,7 @@ const Home = () => {
       <Subscribe />
       <TrandingProducts />
       <News />
+      <Testimonials />
     </main>
   );
 };
