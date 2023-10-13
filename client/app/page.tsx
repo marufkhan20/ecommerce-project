@@ -3,6 +3,7 @@ import Departments from "@/components/home/Departments";
 import DiscoverOffers from "@/components/home/DiscoverOffers";
 import EarnMoneyBanner from "@/components/home/EarnMoneyBanner";
 import ExploreCategories from "@/components/home/ExploreCategories";
+import Footer from "@/components/home/Footer";
 import NewArrivals from "@/components/home/NewArrivals";
 import News from "@/components/home/News";
 import Slider from "@/components/home/Slider";
@@ -30,6 +31,7 @@ const Home = () => {
       <TrandingProducts />
       <News />
       <Testimonials />
+      <Footer />
     </main>
   );
 };
