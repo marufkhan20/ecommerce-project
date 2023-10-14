@@ -3,11 +3,11 @@ import Button from "../ui/Button";
 const EarnMoneyBanner = () => {
   return (
     <section className="py-32">
-      <div className="container">
-        <div className="flex justify-between gap-10 items-center">
-          <div className="w-[50%]">
+      <div className="container px-8 sm:px-0">
+        <div className="flex flex-col-reverse md:flex-row justify-between gap-10 items-center">
+          <div className="w-full md:w-[50%]">
             <h3 className="text-xl">Logo Here</h3>
-            <h2 className="text-[60px] leading-[72px] mt-[50px] mb-7">
+            <h2 className="text-[40px] sm:text-[60px] leading-[50px] sm:leading-[72px] mt-[50px] mb-7">
               Earn free money <br />
               with Ciseco
             </h2>
@@ -17,7 +17,7 @@ const EarnMoneyBanner = () => {
               <Button type="secondary">Discover more</Button>
             </div>
           </div>
-          <div className="w-[50%]">
+          <div className="w-full md:w-[50%]">
             <img src="/images/earn-money.webp" alt="earn money" />
           </div>
         </div>

@@ -6,7 +6,7 @@ import { IoLogoYoutube } from "react-icons/io5";
 const Footer = () => {
   return (
     <footer className="py-28 border-t border-light">
-      <div className="container grid grid-cols-5 gap-8">
+      <div className="container px-8 sm:px-0 grid grid-cols-2 sm:grid-cols-5 gap-8">
         <div>
           <h4 className="text-xl">Logo Here</h4>
           <ul className="flex flex-col gap-2 mt-7">

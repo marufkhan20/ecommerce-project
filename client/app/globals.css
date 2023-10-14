@@ -28,3 +28,9 @@ li {
 .product-image:hover .product-option {
   bottom: 20px;
 }
+/* 
+@media screen and (max-width: 654px) {
+  .container {
+    padding: 0 30px;
+  }
+} */
