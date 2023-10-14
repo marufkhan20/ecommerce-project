@@ -5,13 +5,13 @@ import NewsItem from "./NewsItem";
 const News = () => {
   return (
     <section>
-      <div className="container p-32 rounded-[30px] bg-[#F7F7F9]">
+      <div className="container px-8 p-32 rounded-[30px] bg-[#F7F7F9]">
         <h2 className="text-primary text-4xl">
           The latest news.{" "}
           <span className="text-secondary">From the Ciseco blog</span>
         </h2>
 
-        <div className="flex justify-between gap-8 mt-12">
+        <div className="flex flex-col lg:flex-row justify-between gap-8 mt-12">
           <div className="w-full">
             <img
               src="/images/blogs/1.webp"

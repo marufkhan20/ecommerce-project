@@ -5,7 +5,7 @@ import OfferItem from "./OfferItem";
 
 const DiscoverOffers = () => {
   return (
-    <section className="py-32">
+    <section className="py-32 px-8 sm:px-0">
       <div className="container">
         <Heading
           title="Discover more."
@@ -14,7 +14,7 @@ const DiscoverOffers = () => {
           <SlideArrows />
         </Heading>
 
-        <div className="grid grid-cols-3 gap-7 mt-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-7 mt-12">
           {discoverOffers?.map((offer) => (
             <OfferItem key={offer?.id} offer={offer} />
           ))}

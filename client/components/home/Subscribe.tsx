@@ -3,9 +3,9 @@ import { FiArrowRight } from "react-icons/fi";
 const Subscribe = () => {
   return (
     <section>
-      <div className="container bg-[#F8FAFC] flex justify-between items-center gap-10 rounded-[30px]">
-        <div className="w-full pl-[90px]">
-          <h2 className="text-[52px] leading-[48px]">
+      <div className="container px-8 sm:px-0 bg-[#F8FAFC] flex justify-between flex-col-reverse lg:flex-row items-center gap-10 rounded-[30px]">
+        <div className="w-full pl-10 lg:pl-[90px] pb-10 lg:pb-0">
+          <h2 className="text-[40px] sm:text-[52px] leading-[30px] sm:leading-[48px]">
             {"Don't"} miss out on <br />
             special offers
           </h2>
@@ -35,7 +35,7 @@ const Subscribe = () => {
               </span>
             </li>
           </ul>
-          <div className="mt-8 flex items-center justify-between w-[380px] bg-white rounded-full border">
+          <div className="mt-8 flex items-center justify-between w-full sm:w-[380px] bg-white rounded-full border">
             <input
               className="bg-transparent outline-none px-4 py-2 text-sm"
               type="email"
@@ -46,8 +46,12 @@ const Subscribe = () => {
             </div>
           </div>
         </div>
-        <div className="w-full flex justify-end">
-          <img className="h-[650px]" src="/images/promo3.webp" alt="promo3" />
+        <div className="w-full flex justify-center lg:justify-end">
+          <img
+            className="h-full sm:h-[650px]"
+            src="/images/promo3.webp"
+            alt="promo3"
+          />
         </div>
       </div>
     </section>

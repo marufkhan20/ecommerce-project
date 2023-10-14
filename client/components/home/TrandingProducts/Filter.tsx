@@ -5,8 +5,8 @@ import { TbFilterSearch } from "react-icons/tb";
 const Filter = () => {
   return (
     <div className="mt-10">
-      <div className="flex items-center justify-between gap-5">
-        <nav className="flex items-center gap-1">
+      <div className="flex flex-wrap items-center justify-between gap-5">
+        <nav className="flex flex-wrap items-center gap-1">
           <li className="px-[22px] py-[10px] rounded-full font-medium cursor-pointer bg-primary text-white transition-all">
             All Items
           </li>

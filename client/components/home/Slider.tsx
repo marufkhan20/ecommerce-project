@@ -4,7 +4,7 @@ import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 const Slider = () => {
   return (
     <div className="bg-[#E3FFE6] px-5 relative">
-      <div className="container flex items-center justify-between gap-3">
+      <div className="container px-8 sm:px-0 flex items-center justify-between gap-3">
         <div>
           <h4 className="text-xl font-medium text-[#334155]">
             In this season, find the best 🔥

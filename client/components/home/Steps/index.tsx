@@ -3,8 +3,8 @@ import StepItem from "./StepItem";
 const Steps = () => {
   return (
     <section>
-      <div className="container py-32 border-b border-light relative">
-        <div className="grid grid-cols-4 gap-10">
+      <div className="container px-8 sm:px-0 py-32 border-b border-light relative">
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-10">
           <StepItem
             image="1"
             step={1}

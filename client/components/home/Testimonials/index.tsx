@@ -3,7 +3,7 @@ import TestimonialItem from "./TestimonialItem";
 const Testimonials = () => {
   return (
     <section className="py-32">
-      <div className="container">
+      <div className="container px-8 sm:px-0">
         <div className="w-[85%] mx-auto">
           <div className="flex items-center justify-between w-[70%] mx-auto">
             <img src="/images/testimonials/2.webp" alt="user" />

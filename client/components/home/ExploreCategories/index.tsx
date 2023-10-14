@@ -6,10 +6,10 @@ const ExploreCategories = () => {
   return (
     <section>
       <div className="container">
-        <div className="py-[132px] px-[120px] rounded-[30px] bg-[#F7F7F9]">
+        <div className="py-[132px] px-10 md:px-[120px] rounded-[30px] bg-[#F7F7F9]">
           <div className="flex flex-col items-center">
             <h2 className="text-[48px] mb-12">Start exploring.</h2>
-            <nav className="flex w-auto p-1 rounded-full bg-white shadow-xl shadow-black/5">
+            <nav className="hidden md:flex w-auto p-1 rounded-full bg-white shadow-xl shadow-black/5">
               <li className="px-6 py-3 cursor-pointer rounded-full text-white  flex items-center gap-2 text-sm font-medium bg-primary">
                 <RiWomenLine className="text-lg" />
                 <span>Women</span>
@@ -37,7 +37,7 @@ const ExploreCategories = () => {
             </nav>
           </div>
 
-          <div className="mt-10 grid grid-cols-3 gap-5">
+          <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             <ExploreItem
               image="explore1.webp"
               totalProducts={155}
